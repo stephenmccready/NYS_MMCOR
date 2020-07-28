@@ -5,18 +5,17 @@ Contains T-SQL criteria for determining the category of service for healthcare e
 <br/>Service Utilization and Cost Reporting Guide.<br/>
 <br/>
 1. Execute these to create and populate the look up tables:<br/>
+&nbsp;These 2 tables can be used to do a lookup by MMIS id to determine if the provider of service is an Ambulatory Surgery Center or a Hospital<br/>
+&nbsp;CreateAndPopulate_luAmbulatorySurgeryCenter.sql<br/>
+&nbsp;CreateAndPopulate_luHospitals.sql<br/>
 <br/>
-	These 2 tables can be used to do a lookup by MMIS id to determine if the provider of service is an Ambulatory Surgery Center or a Hospital<br/>
-	CreateAndPopulate_luAmbulatorySurgeryCenter.sql<br/>
-	CreateAndPopulate_luHospitals.sql<br/>
-<br/>
-	These 3 tables are used for reporting:<br/>
-	CreateAndPopulate_luCategoryOfService.sql<br/>
-	CreateAndPopulate_luMMCORCostReportCategory.sql<br/>
-	CreateAndPopulate_luServiceType.sql<br/>
+&nbsp;These 3 tables are used for reporting:<br/>
+&nbsp;CreateAndPopulate_luCategoryOfService.sql<br/>
+&nbsp;CreateAndPopulate_luMMCORCostReportCategory.sql<br/>
+&nbsp;CreateAndPopulate_luServiceType.sql<br/>
 	<br/>
 2. Create tbl_Encounters.  This is where you will populate your encounters.<br/>
-	Create_tblEncounters.sql<br/>
+&nbsp;Create_tblEncounters.sql<br/>
 	<br/>
 3. Use Populate_tblEncounters.sql as a template to insert your own encounters into tbl_Encounters.<br/>
 <br/>
