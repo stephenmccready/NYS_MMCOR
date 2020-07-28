@@ -19,4 +19,3 @@ Contains T-SQL criteria for determining the category of service for healthcare e
 3. Use Populate_tblEncounters.sql as a template to insert your own encounters into tbl_Encounters.<br/>
 <br/>
 4. Create and execute usp_UpdateServiceTypeCode.sql<br/>
-<br/>
