@@ -1,7 +1,7 @@
 # NYS_MMCOR
 Contains T-SQL criteria for determining the category of service for healthcare encounters per the <br/>
 <b>NYSDOH</b> (New York State Department of Health)<br/>
-<b>MEDICAID ENCOUNTER DATA REPORTING FOR APD (All Payer Database) AND MMCOR (Medicaid Managed Care Operating Report) CATEGORY OF SERVICE</b>
+<b>MEDICAID ENCOUNTER DATA REPORTING FOR APD </b>(All Payer Database)<b> AND MMCOR </b>(Medicaid Managed Care Operating Report) <b>CATEGORY OF SERVICE</b>
 <br/><b>Service Utilization and Cost Reporting Guide.</b><br/>
 <i>Commonly know as the MMCOR guide</i><br/>
 <br/>
