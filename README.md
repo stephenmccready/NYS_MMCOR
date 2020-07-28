@@ -1,10 +1,11 @@
 # NYS_MMCOR
 Contains T-SQL criteria for determining the category of service for healthcare encounters per the <br/>
-<b>NYSDOH</b> (NEW YORK STATE DEPARTMENT OF HEALTH OFFICE OF HEALTH INSURANCE PROGRAMS)<br/>
-<b>MEDICAID ENCOUNTER DATA REPORTING FOR APD AND MMCOR CATEGORY OF SERVICE</b>
-<br/>Service Utilization and Cost Reporting Guide.<br/>
+<b>NYSDOH</b> (New York State Department of Health)<br/>
+<b>MEDICAID ENCOUNTER DATA REPORTING FOR APD (All Payer Database) AND MMCOR (Medicaid Managed Care Operating Report) CATEGORY OF SERVICE</b>
+<br/><b>Service Utilization and Cost Reporting Guide.</b><br/>
+<i>Commonly know as the MMCOR guide</i><br/>
 <br/>
-1. Execute these to create and populate the look up tables:<br/>
+1. Execute these scripts to create and populate the look up tables:<br/>
 &nbsp;These 2 tables can be used to do a lookup by MMIS id to determine if the provider of service is an Ambulatory Surgery Center or a Hospital<br/>
 &nbsp;CreateAndPopulate_luAmbulatorySurgeryCenter.sql<br/>
 &nbsp;CreateAndPopulate_luHospitals.sql<br/>
@@ -18,4 +19,5 @@ Contains T-SQL criteria for determining the category of service for healthcare e
 	<br/>
 3. Use Populate_tblEncounters.sql as a template to insert your own encounters into tbl_Encounters.<br/>
 <br/>
-4. Create and execute usp_UpdateServiceTypeCode.sql<br/>
+4. Create and execute the stored procedure: usp_UpdateServiceTypeCode.sql This will allocate an MMCOR category (MMCORCostReportCategoryId) to each encounter<br/>
+<br/>
