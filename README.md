@@ -8,7 +8,6 @@ Contains T-SQL criteria for determining the category of service for healthcare e
 &nbsp;These 2 tables can be used to do a lookup by MMIS id to determine if the provider of service is an Ambulatory Surgery Center or a Hospital<br/>
 &nbsp;CreateAndPopulate_luAmbulatorySurgeryCenter.sql<br/>
 &nbsp;CreateAndPopulate_luHospitals.sql<br/>
-<br/>
 &nbsp;These 3 tables are used for reporting:<br/>
 &nbsp;CreateAndPopulate_luCategoryOfService.sql<br/>
 &nbsp;CreateAndPopulate_luMMCORCostReportCategory.sql<br/>
