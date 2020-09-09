@@ -3482,7 +3482,7 @@ IF Provider_Specialty_Code IN('671', '740') then NON_ER_TRANS = 1;
 */
 UPDATE	E
 SET		ServiceTypeCode = 420
-,		ER_TRANS = 1
+,		NON_ER_TRANS = 1
 FROM	dbo.tblEncounters AS E
 WHERE	MMCORCostReportCategoryId = 0
 AND		E.Provider_Specialty_Code IN('671','740')	
